@@ -31,6 +31,7 @@ let routers = createBrowserRouter([
       { path: 'allorders', element: <ProtectedRoute><Orders /></ProtectedRoute> },
       { path: 'Register', element: <Register /> },
       { path: 'login', element: <Login /> },
+      { path: 'freshcart/', element: <Login /> },
       { path: 'Products', element: <ProtectedRoute><FeaturedProducts /></ProtectedRoute> },
       { path: 'Loggedusercart', element: <ProtectedRoute><Loggedusercart /></ProtectedRoute> },
       { path: '*', element: <Notfound /> }
